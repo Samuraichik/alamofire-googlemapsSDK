@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01AB487A752636D3F79A0AC8 /* Pods_alamofire_googlemapsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A58A44D6E8384565D34F70A /* Pods_alamofire_googlemapsSDK.framework */; };
+		CE8EE93128649F1C00660BC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EE93028649F1C00660BC9 /* AppDelegate.swift */; };
+		CE8EE93328649F1C00660BC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EE93228649F1C00660BC9 /* SceneDelegate.swift */; };
+		CE8EE93528649F1C00660BC9 /* PostcodesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EE93428649F1C00660BC9 /* PostcodesViewController.swift */; };
+		CE8EE93828649F1C00660BC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8EE93628649F1C00660BC9 /* Main.storyboard */; };
+		CE8EE93A28649F1E00660BC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8EE93928649F1E00660BC9 /* Assets.xcassets */; };
+		CE8EE93D28649F1E00660BC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8EE93B28649F1E00660BC9 /* LaunchScreen.storyboard */; };
+		CE8EE9462864F01A00660BC9 /* Postcodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EE9452864F01A00660BC9 /* Postcodes.swift */; };
+		CE8EE9482865E2F600660BC9 /* Postcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EE9472865E2F600660BC9 /* Postcode.swift */; };
+		CE8EE9552865E39800660BC9 /* Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EE94D2865E39800660BC9 /* Anchor.swift */; };
+		CE8EE9562865E39800660BC9 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EE94E2865E39800660BC9 /* Helpers.swift */; };
+		CE8EE9572865E39800660BC9 /* LayoutEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EE94F2865E39800660BC9 /* LayoutEnums.swift */; };
+		CE8EE9582865E39800660BC9 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EE9502865E39800660BC9 /* Layout.swift */; };
+		CE8EE9592865E39800660BC9 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EE9522865E39800660BC9 /* UIViewController.swift */; };
+		CE8EE95A2865E39800660BC9 /* ReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EE9542865E39800660BC9 /* ReusableCell.swift */; };
+		CE8EE95C2865E3C500660BC9 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EE95B2865E3C500660BC9 /* SplashViewController.swift */; };
+		CE8EE9602865E64C00660BC9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EE95F2865E64C00660BC9 /* MapViewController.swift */; };
+		CE8EE9622865EA3900660BC9 /* PostcodesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EE9612865EA3900660BC9 /* PostcodesViewModel.swift */; };
+		CE8EE9642865EE1300660BC9 /* PosctodesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EE9632865EE1300660BC9 /* PosctodesTableViewCell.swift */; };
+		CE8EE9872868321700660BC9 /* PostcodeInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EE9852868321700660BC9 /* PostcodeInfoViewController.swift */; };
+		CE8EE9882868321700660BC9 /* PostcodeInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8EE9862868321700660BC9 /* PostcodeInfoViewController.xib */; };
+		CE8EE98D286864C000660BC9 /* PostcodesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EE98C286864C000660BC9 /* PostcodesService.swift */; };
+		CE8EE9902868A72800660BC9 /* AddPostcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EE98F2868A72800660BC9 /* AddPostcodeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2540D7DE28B0846B0A29B67D /* Pods-alamofire-googlemapsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alamofire-googlemapsSDK.release.xcconfig"; path = "Target Support Files/Pods-alamofire-googlemapsSDK/Pods-alamofire-googlemapsSDK.release.xcconfig"; sourceTree = "<group>"; };
+		2A58A44D6E8384565D34F70A /* Pods_alamofire_googlemapsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alamofire_googlemapsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8EE92D28649F1C00660BC9 /* alamofire-googlemapsSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "alamofire-googlemapsSDK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8EE93028649F1C00660BC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE8EE93228649F1C00660BC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE8EE93428649F1C00660BC9 /* PostcodesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcodesViewController.swift; sourceTree = "<group>"; };
+		CE8EE93728649F1C00660BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE8EE93928649F1E00660BC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE8EE93C28649F1E00660BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE8EE93E28649F1E00660BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8EE9452864F01A00660BC9 /* Postcodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Postcodes.swift; sourceTree = "<group>"; };
+		CE8EE9472865E2F600660BC9 /* Postcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Postcode.swift; sourceTree = "<group>"; };
+		CE8EE94D2865E39800660BC9 /* Anchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Anchor.swift; sourceTree = "<group>"; };
+		CE8EE94E2865E39800660BC9 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		CE8EE94F2865E39800660BC9 /* LayoutEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutEnums.swift; sourceTree = "<group>"; };
+		CE8EE9502865E39800660BC9 /* Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		CE8EE9522865E39800660BC9 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		CE8EE9542865E39800660BC9 /* ReusableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableCell.swift; sourceTree = "<group>"; };
+		CE8EE95B2865E3C500660BC9 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		CE8EE95F2865E64C00660BC9 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		CE8EE9612865EA3900660BC9 /* PostcodesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcodesViewModel.swift; sourceTree = "<group>"; };
+		CE8EE9632865EE1300660BC9 /* PosctodesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosctodesTableViewCell.swift; sourceTree = "<group>"; };
+		CE8EE9852868321700660BC9 /* PostcodeInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcodeInfoViewController.swift; sourceTree = "<group>"; };
+		CE8EE9862868321700660BC9 /* PostcodeInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostcodeInfoViewController.xib; sourceTree = "<group>"; };
+		CE8EE98C286864C000660BC9 /* PostcodesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcodesService.swift; sourceTree = "<group>"; };
+		CE8EE98F2868A72800660BC9 /* AddPostcodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostcodeViewController.swift; sourceTree = "<group>"; };
+		CF1E0186BDA30E577413E8F8 /* Pods-alamofire-googlemapsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alamofire-googlemapsSDK.debug.xcconfig"; path = "Target Support Files/Pods-alamofire-googlemapsSDK/Pods-alamofire-googlemapsSDK.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE8EE92A28649F1C00660BC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AB487A752636D3F79A0AC8 /* Pods_alamofire_googlemapsSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		284E47D9D397E751F9A480BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A58A44D6E8384565D34F70A /* Pods_alamofire_googlemapsSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE8EE92428649F1C00660BC9 = {
+			isa = PBXGroup;
+			children = (
+				CE8EE92F28649F1C00660BC9 /* alamofire-googlemapsSDK */,
+				CE8EE92E28649F1C00660BC9 /* Products */,
+				E69A6C973F4220ADFD211DAB /* Pods */,
+				284E47D9D397E751F9A480BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE8EE92E28649F1C00660BC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8EE92D28649F1C00660BC9 /* alamofire-googlemapsSDK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8EE92F28649F1C00660BC9 /* alamofire-googlemapsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				CE8EE9712866DF3100660BC9 /* Core */,
+				CE8EE94B2865E39800660BC9 /* Helpers */,
+				CE8EE9492865E35400660BC9 /* UI */,
+				CE8EE9442864F00200660BC9 /* Models */,
+				CE8EE93028649F1C00660BC9 /* AppDelegate.swift */,
+				CE8EE93228649F1C00660BC9 /* SceneDelegate.swift */,
+				CE8EE93628649F1C00660BC9 /* Main.storyboard */,
+				CE8EE93928649F1E00660BC9 /* Assets.xcassets */,
+				CE8EE93B28649F1E00660BC9 /* LaunchScreen.storyboard */,
+				CE8EE93E28649F1E00660BC9 /* Info.plist */,
+				CE8EE95B2865E3C500660BC9 /* SplashViewController.swift */,
+			);
+			path = "alamofire-googlemapsSDK";
+			sourceTree = "<group>";
+		};
+		CE8EE9442864F00200660BC9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE8EE9452864F01A00660BC9 /* Postcodes.swift */,
+				CE8EE9472865E2F600660BC9 /* Postcode.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE8EE9492865E35400660BC9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CE8EE94A2865E36000660BC9 /* Controllers */,
+				CE8EE9632865EE1300660BC9 /* PosctodesTableViewCell.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CE8EE94A2865E36000660BC9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE8EE98E2868A70000660BC9 /* AddPostcodeViewController */,
+				CE8EE95E2865E63400660BC9 /* MapViewController */,
+				CE8EE95D2865E62A00660BC9 /* PostcodesViewController */,
+				CE8EE98928683F3100660BC9 /* PostcodeInfoViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE8EE94B2865E39800660BC9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CE8EE94C2865E39800660BC9 /* Constraints */,
+				CE8EE9512865E39800660BC9 /* Extensions */,
+				CE8EE9532865E39800660BC9 /* Protocols */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CE8EE94C2865E39800660BC9 /* Constraints */ = {
+			isa = PBXGroup;
+			children = (
+				CE8EE94D2865E39800660BC9 /* Anchor.swift */,
+				CE8EE94E2865E39800660BC9 /* Helpers.swift */,
+				CE8EE94F2865E39800660BC9 /* LayoutEnums.swift */,
+				CE8EE9502865E39800660BC9 /* Layout.swift */,
+			);
+			path = Constraints;
+			sourceTree = "<group>";
+		};
+		CE8EE9512865E39800660BC9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE8EE9522865E39800660BC9 /* UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CE8EE9532865E39800660BC9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CE8EE9542865E39800660BC9 /* ReusableCell.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		CE8EE95D2865E62A00660BC9 /* PostcodesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE8EE93428649F1C00660BC9 /* PostcodesViewController.swift */,
+				CE8EE9612865EA3900660BC9 /* PostcodesViewModel.swift */,
+			);
+			path = PostcodesViewController;
+			sourceTree = "<group>";
+		};
+		CE8EE95E2865E63400660BC9 /* MapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE8EE95F2865E64C00660BC9 /* MapViewController.swift */,
+			);
+			path = MapViewController;
+			sourceTree = "<group>";
+		};
+		CE8EE9712866DF3100660BC9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CE8EE9742866DF5E00660BC9 /* Services */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CE8EE9742866DF5E00660BC9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CE8EE98C286864C000660BC9 /* PostcodesService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CE8EE98928683F3100660BC9 /* PostcodeInfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE8EE9852868321700660BC9 /* PostcodeInfoViewController.swift */,
+				CE8EE9862868321700660BC9 /* PostcodeInfoViewController.xib */,
+			);
+			path = PostcodeInfoViewController;
+			sourceTree = "<group>";
+		};
+		CE8EE98E2868A70000660BC9 /* AddPostcodeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE8EE98F2868A72800660BC9 /* AddPostcodeViewController.swift */,
+			);
+			path = AddPostcodeViewController;
+			sourceTree = "<group>";
+		};
+		E69A6C973F4220ADFD211DAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF1E0186BDA30E577413E8F8 /* Pods-alamofire-googlemapsSDK.debug.xcconfig */,
+				2540D7DE28B0846B0A29B67D /* Pods-alamofire-googlemapsSDK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE8EE92C28649F1C00660BC9 /* alamofire-googlemapsSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8EE94128649F1E00660BC9 /* Build configuration list for PBXNativeTarget "alamofire-googlemapsSDK" */;
+			buildPhases = (
+				6BE9A53F6C70530A871476FD /* [CP] Check Pods Manifest.lock */,
+				CE8EE92928649F1C00660BC9 /* Sources */,
+				CE8EE92A28649F1C00660BC9 /* Frameworks */,
+				CE8EE92B28649F1C00660BC9 /* Resources */,
+				A16DEEF368F2176BD223138A /* [CP] Copy Pods Resources */,
+				7BBF36A8DC6D99FBD407B949 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "alamofire-googlemapsSDK";
+			productName = "alamofire-googlemapsSDK";
+			productReference = CE8EE92D28649F1C00660BC9 /* alamofire-googlemapsSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE8EE92528649F1C00660BC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					CE8EE92C28649F1C00660BC9 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = CE8EE92828649F1C00660BC9 /* Build configuration list for PBXProject "alamofire-googlemapsSDK" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE8EE92428649F1C00660BC9;
+			productRefGroup = CE8EE92E28649F1C00660BC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE8EE92C28649F1C00660BC9 /* alamofire-googlemapsSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE8EE92B28649F1C00660BC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8EE93D28649F1E00660BC9 /* LaunchScreen.storyboard in Resources */,
+				CE8EE93A28649F1E00660BC9 /* Assets.xcassets in Resources */,
+				CE8EE93828649F1C00660BC9 /* Main.storyboard in Resources */,
+				CE8EE9882868321700660BC9 /* PostcodeInfoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BE9A53F6C70530A871476FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-alamofire-googlemapsSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BBF36A8DC6D99FBD407B949 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-alamofire-googlemapsSDK/Pods-alamofire-googlemapsSDK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-alamofire-googlemapsSDK/Pods-alamofire-googlemapsSDK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-alamofire-googlemapsSDK/Pods-alamofire-googlemapsSDK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A16DEEF368F2176BD223138A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-alamofire-googlemapsSDK/Pods-alamofire-googlemapsSDK-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-alamofire-googlemapsSDK/Pods-alamofire-googlemapsSDK-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-alamofire-googlemapsSDK/Pods-alamofire-googlemapsSDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE8EE92928649F1C00660BC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8EE9872868321700660BC9 /* PostcodeInfoViewController.swift in Sources */,
+				CE8EE9482865E2F600660BC9 /* Postcode.swift in Sources */,
+				CE8EE9562865E39800660BC9 /* Helpers.swift in Sources */,
+				CE8EE9572865E39800660BC9 /* LayoutEnums.swift in Sources */,
+				CE8EE95C2865E3C500660BC9 /* SplashViewController.swift in Sources */,
+				CE8EE93528649F1C00660BC9 /* PostcodesViewController.swift in Sources */,
+				CE8EE95A2865E39800660BC9 /* ReusableCell.swift in Sources */,
+				CE8EE9602865E64C00660BC9 /* MapViewController.swift in Sources */,
+				CE8EE9592865E39800660BC9 /* UIViewController.swift in Sources */,
+				CE8EE98D286864C000660BC9 /* PostcodesService.swift in Sources */,
+				CE8EE93128649F1C00660BC9 /* AppDelegate.swift in Sources */,
+				CE8EE9582865E39800660BC9 /* Layout.swift in Sources */,
+				CE8EE9462864F01A00660BC9 /* Postcodes.swift in Sources */,
+				CE8EE9642865EE1300660BC9 /* PosctodesTableViewCell.swift in Sources */,
+				CE8EE9622865EA3900660BC9 /* PostcodesViewModel.swift in Sources */,
+				CE8EE9552865E39800660BC9 /* Anchor.swift in Sources */,
+				CE8EE9902868A72800660BC9 /* AddPostcodeViewController.swift in Sources */,
+				CE8EE93328649F1C00660BC9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE8EE93628649F1C00660BC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8EE93728649F1C00660BC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE8EE93B28649F1E00660BC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8EE93C28649F1E00660BC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE8EE93F28649F1E00660BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE8EE94028649F1E00660BC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE8EE94228649F1E00660BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF1E0186BDA30E577413E8F8 /* Pods-alamofire-googlemapsSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "alamofire-googlemapsSDK/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Humenyuk-Oleksiy.alamofire-googlemapsSDK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE8EE94328649F1E00660BC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2540D7DE28B0846B0A29B67D /* Pods-alamofire-googlemapsSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "alamofire-googlemapsSDK/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Humenyuk-Oleksiy.alamofire-googlemapsSDK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE8EE92828649F1C00660BC9 /* Build configuration list for PBXProject "alamofire-googlemapsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8EE93F28649F1E00660BC9 /* Debug */,
+				CE8EE94028649F1E00660BC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8EE94128649F1E00660BC9 /* Build configuration list for PBXNativeTarget "alamofire-googlemapsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8EE94228649F1E00660BC9 /* Debug */,
+				CE8EE94328649F1E00660BC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE8EE92528649F1C00660BC9 /* Project object */;
+}
