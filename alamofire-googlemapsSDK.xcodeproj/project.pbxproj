@@ -30,6 +30,8 @@
 		CE8EE9882868321700660BC9 /* PostcodeInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8EE9862868321700660BC9 /* PostcodeInfoViewController.xib */; };
 		CE8EE98D286864C000660BC9 /* PostcodesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EE98C286864C000660BC9 /* PostcodesService.swift */; };
 		CE8EE9902868A72800660BC9 /* AddPostcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EE98F2868A72800660BC9 /* AddPostcodeViewController.swift */; };
+		CE99A3C2286A05B600D8F156 /* PostcodeInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99A3C0286A05B600D8F156 /* PostcodeInfoView.swift */; };
+		CE99A3C3286A05B600D8F156 /* PostcodeInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE99A3C1286A05B600D8F156 /* PostcodeInfoView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +61,8 @@
 		CE8EE9862868321700660BC9 /* PostcodeInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostcodeInfoViewController.xib; sourceTree = "<group>"; };
 		CE8EE98C286864C000660BC9 /* PostcodesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcodesService.swift; sourceTree = "<group>"; };
 		CE8EE98F2868A72800660BC9 /* AddPostcodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostcodeViewController.swift; sourceTree = "<group>"; };
+		CE99A3C0286A05B600D8F156 /* PostcodeInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostcodeInfoView.swift; sourceTree = "<group>"; };
+		CE99A3C1286A05B600D8F156 /* PostcodeInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostcodeInfoView.xib; sourceTree = "<group>"; };
 		CF1E0186BDA30E577413E8F8 /* Pods-alamofire-googlemapsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alamofire-googlemapsSDK.debug.xcconfig"; path = "Target Support Files/Pods-alamofire-googlemapsSDK/Pods-alamofire-googlemapsSDK.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +136,8 @@
 			children = (
 				CE8EE94A2865E36000660BC9 /* Controllers */,
 				CE8EE9632865EE1300660BC9 /* PosctodesTableViewCell.swift */,
+				CE99A3C0286A05B600D8F156 /* PostcodeInfoView.swift */,
+				CE99A3C1286A05B600D8F156 /* PostcodeInfoView.xib */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -304,6 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE99A3C3286A05B600D8F156 /* PostcodeInfoView.xib in Resources */,
 				CE8EE93D28649F1E00660BC9 /* LaunchScreen.storyboard in Resources */,
 				CE8EE93A28649F1E00660BC9 /* Assets.xcassets in Resources */,
 				CE8EE93828649F1C00660BC9 /* Main.storyboard in Resources */,
@@ -379,6 +386,7 @@
 			files = (
 				CE8EE9872868321700660BC9 /* PostcodeInfoViewController.swift in Sources */,
 				CE8EE9482865E2F600660BC9 /* Postcode.swift in Sources */,
+				CE99A3C2286A05B600D8F156 /* PostcodeInfoView.swift in Sources */,
 				CE8EE9562865E39800660BC9 /* Helpers.swift in Sources */,
 				CE8EE9572865E39800660BC9 /* LayoutEnums.swift in Sources */,
 				CE8EE95C2865E3C500660BC9 /* SplashViewController.swift in Sources */,
